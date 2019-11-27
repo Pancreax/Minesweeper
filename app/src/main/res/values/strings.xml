@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="victory">You win</string>
+    <string name="lost">You lose</string>
+    <string name="try_again">Try again</string>
+    <string name="size_8x8">8 x 8</string>
+    <string name="size_13x10">13 x 10</string>
+    <string name="size_16x12">16 x 12</string>
+    <string name="size_20x15">20 x 15</string>
+    <string name="action_visible">View field</string>
+    <string name="action_invisible">Hide field</string>
+</resources>

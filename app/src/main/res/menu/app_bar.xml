@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_visible"
+        android:icon="@drawable/ic_visibility_24px"
+        android:title="@string/action_visible"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_invisible"
+        android:icon="@drawable/ic_visibility_off_24px"
+        android:title="@string/action_invisible"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_replay"
+        android:icon="@drawable/ic_replay_24px"
+        android:title="@string/try_again"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_8x8"
+        android:title="@string/size_8x8"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/action_13x10"
+        android:title="@string/size_13x10"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/action_16x12"
+        android:title="@string/size_16x12"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/action_20x15"
+        android:title="@string/size_20x15"
+        app:showAsAction="never"/>
+
+</menu>
